@@ -1,3 +1,4 @@
+# Case study from The Quick Python Book by Naomi Ceder
 # import requests, namedtuple from collections library, NumPy, and matplotlib
 
 import requests
