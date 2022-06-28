@@ -40,8 +40,7 @@ timesteps = 100000
 for t in range(timesteps):
     
     # Select input u
-    index = int(rand(1)*100)
-    u = np.array([u1[index], u2[index]])
+    u = np.array([u1[t % 100], u2[t % 100]])
     
     # Find output firing rate v
     v = np.dot(u, w)
